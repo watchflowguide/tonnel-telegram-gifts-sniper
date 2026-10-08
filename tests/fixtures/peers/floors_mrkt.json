@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "market": "mrkt",
+  "ts": 0,
+  "age_s": 3600,
+  "fees": {"buy_pct": 0, "sell_pct": 5, "withdraw_ton": 0},
+  "collections": {
+    "lunarsnake": {"name": "Lunar Snake", "floor": 0.97, "n": 25, "models": {"albino": 1.6, "cobra": 0.97}},
+    "spyagaric": {"name": "Spy Agaric", "floor": 5.0, "n": 6, "models": {"amanita": 5.0}}
+  }
+}
