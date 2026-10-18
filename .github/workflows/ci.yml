@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    env:
+      PYTHONIOENCODING: utf-8
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # 3.11 is the oldest supported version (README); 3.12 is the reference build.
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      # Offline: fake Tonnel client, fixture data, fixed TON rate, no keys needed.
+      - name: Run the offline mock
+        run: python -m tonnel_autobuy mock --cycles 2
+

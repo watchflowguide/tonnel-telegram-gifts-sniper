@@ -1,0 +1,151 @@
+{
+  "key": "tonnel-autobuy",
+  "accent": [
+    "#FF7A1A",
+    "#FFD23F"
+  ],
+  "bot": "Tonnel Autobuy",
+  "initials": "TA",
+  "time": "14:32",
+  "subtitle": "Real card text from the mock run",
+  "lines": [
+    [
+      {
+        "t": "PRACTICE",
+        "s": "warn"
+      },
+      {
+        "t": " · ",
+        "s": "muted"
+      },
+      {
+        "t": "Spy Agaric #777",
+        "s": "title"
+      },
+      {
+        "t": " — 4.55 TON (−17%)",
+        "s": "body"
+      }
+    ],
+    [
+      {
+        "t": "Amanita (1%) · Onyx Black (1%) · Star (0.3%)",
+        "s": "muted"
+      }
+    ],
+    "",
+    [
+      {
+        "t": "You pay ",
+        "s": "body"
+      },
+      {
+        "t": "5.00 TON",
+        "s": "mono"
+      },
+      {
+        "t": " (incl. 10% fee) ≈ $6.26 · Floor ",
+        "s": "body"
+      },
+      {
+        "t": "5.50",
+        "s": "mono"
+      },
+      {
+        "t": " (high, 5 comparables)",
+        "s": "body"
+      }
+    ],
+    [
+      {
+        "t": "If resold at floor: ",
+        "s": "body"
+      },
+      {
+        "t": "+0.50 TON net (+10%)",
+        "s": "good"
+      },
+      {
+        "t": " · break-even ",
+        "s": "body"
+      },
+      {
+        "t": "5.00",
+        "s": "mono"
+      }
+    ],
+    [
+      {
+        "t": "Elsewhere: Portals ",
+        "s": "body"
+      },
+      {
+        "t": "4.60",
+        "s": "mono"
+      },
+      {
+        "t": " · Telegram ",
+        "s": "body"
+      },
+      {
+        "t": "6.40",
+        "s": "mono"
+      },
+      {
+        "t": " · MRKT n/a (all-in)",
+        "s": "body"
+      }
+    ],
+    [
+      {
+        "t": "Telegram: avg ~6.32 TON · last sale ~6.08 TON (5 d ago) · 12 listed",
+        "s": "body"
+      }
+    ],
+    [
+      {
+        "t": "Asking first: cheaper on Portals (4.60 all-in)",
+        "s": "warn"
+      }
+    ],
+    [
+      {
+        "t": "Risk: fee rates are assumptions until FEES_VERIFIED=true; the floor can move before you resell.",
+        "s": "muted"
+      }
+    ],
+    [
+      {
+        "t": "Waiting for your tap (90 s)",
+        "s": "title"
+      }
+    ],
+    "",
+    [
+      {
+        "t": "Why: Listed 17% under a solid floor of 5.50 TON (5 comparable listings, cluster). After the 0% sell fee, reselling at the floor gives 5.50 TON: +0.50 TON net. It passes rule #5 (max 5.5 TON, mode auto).",
+        "s": "quote"
+      }
+    ],
+    [
+      {
+        "t": "Rule #5 · 48.9 TON left today · 2 buys left this hour · floor source: cluster",
+        "s": "quote"
+      }
+    ]
+  ],
+  "buttons": [
+    [
+      "Buy 5.00 TON"
+    ],
+    [
+      "Skip",
+      "Mute 24h",
+      "Why?"
+    ],
+    [
+      "Open gift",
+      "Open Tonnel"
+    ]
+  ]
+}

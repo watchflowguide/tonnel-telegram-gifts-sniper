@@ -1,0 +1,8 @@
+aiogram>=3.31
+telethon>=1.45
+curl_cffi>=0.7
+pydantic-settings>=2.4
+aiosqlite>=0.20
+pycryptodome>=3.20
+# Optional, only for the [Explain more] button (also needs ANTHROPIC_API_KEY):
+# anthropic>=2.3

@@ -1,0 +1,7 @@
+[
+  {"collection": "Toy Bear", "max_price_ton": 12, "min_discount_pct": 25, "min_profit_ton": 0.5, "mode": "confirm"},
+  {"collection": "Plush Pepe", "model": "Gucci Bag", "max_price_ton": 900, "min_discount_pct": 15,
+   "min_confidence": "high", "mode": "auto"},
+  {"collection": "Lol Pop", "backdrop": "Black", "max_price_ton": 6, "min_discount_pct": 20, "min_profit_pct": 10,
+   "allow_locked_days": 0, "mode": "watch", "exit": "best", "enabled": false}
+]
