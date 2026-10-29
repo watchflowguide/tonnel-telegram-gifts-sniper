@@ -1,0 +1,6 @@
+{
+  "_comment": "Collection-name aliases between markets, as normalized keys (lowercase alnum). Each bot carries its own copy.",
+  "plushpepes": "plushpepe",
+  "durovscaps": "durovscap",
+  "lunarsnakes": "lunarsnake"
+}

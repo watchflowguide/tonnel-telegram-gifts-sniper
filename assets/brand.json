@@ -1,0 +1,16 @@
+{
+  "key": "tonnel-autobuy",
+  "title": "Tonnel Autobuy",
+  "eyebrow": "Telegram Gifts · Tonnel",
+  "tagline": "Gift sniper for Tonnel that prices deals after the 10% fee, skips traps and starts in practice",
+  "chips": [
+    "Dry-run by default",
+    "Python 3.11+",
+    "aiogram 3"
+  ],
+  "accent": [
+    "#FF7A1A",
+    "#FFD23F"
+  ],
+  "icon": "tunnel"
+}

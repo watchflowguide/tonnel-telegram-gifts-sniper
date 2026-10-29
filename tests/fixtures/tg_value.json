@@ -1,0 +1,11 @@
+{
+  "_comment": "FakeTgValue fixtures: slug -> payments.UniqueStarGiftValueInfo fields, amounts in cents (USD).",
+  "LunarSnake-4410": {"currency": "USD", "value": 250, "average_price": 250, "last_sale_price": 240, "last_sale_days_ago": 3, "floor_price": 200, "listed_count": 41},
+  "LunarSnake-4416": {"currency": "USD", "value": 250, "average_price": 250, "last_sale_price": 240, "last_sale_days_ago": 3, "floor_price": 200, "listed_count": 41},
+  "LunarSnake-4417": {"currency": "USD", "value": 250, "average_price": 250, "last_sale_price": 240, "last_sale_days_ago": 3, "floor_price": 200, "listed_count": 41},
+  "DeskCalendar-3002": {"currency": "USD", "value": 410, "average_price": 400, "last_sale_price": 395, "last_sale_days_ago": 1, "floor_price": 380, "listed_count": 77},
+  "DeskCalendar-3001": {"currency": "USD", "value": 410, "average_price": 400, "last_sale_price": 395, "last_sale_days_ago": 1, "floor_price": 380, "listed_count": 77},
+  "JellyBunny-55": {"currency": "USD", "value": 260, "average_price": 260, "last_sale_price": 250, "last_sale_days_ago": 2, "floor_price": 240, "listed_count": 19},
+  "SpyAgaric-777": {"currency": "USD", "value": 800, "average_price": 790, "last_sale_price": 760, "last_sale_days_ago": 5, "floor_price": 700, "listed_count": 12},
+  "HomemadeCake-1234": {"currency": "USD", "value": 300, "average_price": 300, "last_sale_price": 325, "last_sale_days_ago": 4, "floor_price": 290, "listed_count": 9}
+}

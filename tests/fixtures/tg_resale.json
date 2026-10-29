@@ -1,0 +1,11 @@
+{
+  "_comment": "MockTgMarket fixtures: collection -> Telegram resale offers (payments.getResaleStarGifts). 'ton' prices are TON, 'stars' are Stars (converted with STARS_USD_RATE and the TON rate).",
+  "Lunar Snake": [
+    {"model": "Albino", "ton": 1.95}, {"model": "Albino", "ton": 2.10}, {"model": "Cobra", "ton": 1.40},
+    {"model": "Cobra", "stars": 150}
+  ],
+  "Desk Calendar": [{"model": "Classic", "ton": 3.70}, {"model": "Classic", "stars": 400}, {"model": "Retro", "ton": 4.20}],
+  "Jelly Bunny": [{"model": "Strawberry", "stars": 200}, {"model": "Strawberry", "stars": 215}],
+  "Spy Agaric": [{"model": "Toadstool", "ton": 6.40}, {"model": "Toadstool", "ton": 6.90}],
+  "Homemade Cake": [{"model": "Vanilla", "ton": 4.10}]
+}
