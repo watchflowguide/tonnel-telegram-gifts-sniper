@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "market": "portals",
+  "ts": 0,
+  "age_s": 30,
+  "fees": {"buy_pct": 0, "sell_pct": 5, "withdraw_ton": 0.1},
+  "collections": {
+    "lunarsnake": {"name": "Lunar Snake", "floor": 1.05, "n": 31, "models": {"albino": 1.75, "cobra": 1.1}},
+    "deskcalendar": {"name": "Desk Calendar", "floor": 3.3, "n": 54, "models": {"classic": 3.4}},
+    "jellybunny": {"name": "Jelly Bunny", "floor": 2.2, "n": 18, "models": {}},
+    "spyagaric": {"name": "Spy Agaric", "floor": 4.6, "n": 12, "models": {"amanita": 4.6}},
+    "homemadecake": {"name": "Homemade Cake", "floor": 3.9, "n": 22, "models": {"choco": 4.1}},
+    "plushpepe": {"name": "Plush Pepes", "floor": 4150, "n": 7, "models": {}}
+  }
+}

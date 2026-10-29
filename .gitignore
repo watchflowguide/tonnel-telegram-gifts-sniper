@@ -1,0 +1,25 @@
+# Secrets: never commit them (.env.example is the template)
+.env
+.env.*
+!.env.example
+
+# Runtime data: database, Telegram session, event log, sibling snapshots
+data/
+sessions/
+*.session
+*.session-journal
+*.log
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Local strategy, see rules.example.json
+rules.json
+
+# Python and tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/

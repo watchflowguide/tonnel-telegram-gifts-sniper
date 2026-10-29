@@ -1,0 +1,94 @@
+{
+  "key": "tonnel-autobuy-digest",
+  "accent": [
+    "#FF7A1A",
+    "#FFD23F"
+  ],
+  "bot": "Tonnel Autobuy",
+  "initials": "TA",
+  "time": "09:00",
+  "subtitle": "/digest: the daily summary with a tuning hint",
+  "lines": [
+    [
+      {
+        "t": "Digest, last 24 h:",
+        "s": "title"
+      }
+    ],
+    "",
+    [
+      {
+        "t": "Listings scanned: ",
+        "s": "muted"
+      },
+      {
+        "t": "40 · alerts: 5 · buys: 2",
+        "s": "body"
+      }
+    ],
+    [
+      {
+        "t": "Spend vs budget: ",
+        "s": "muted"
+      },
+      {
+        "t": "practice 2.42 / 50 TON (5%) · live 0.00 / 50 TON (0%) (DAILY_BUDGET_TON per UTC day)",
+        "s": "body"
+      }
+    ],
+    [
+      {
+        "t": "Practice net: ",
+        "s": "muted"
+      },
+      {
+        "t": "+0.78 TON",
+        "s": "good"
+      },
+      {
+        "t": " (2 buys) · ",
+        "s": "body"
+      },
+      {
+        "t": "Live net: ",
+        "s": "muted"
+      },
+      {
+        "t": "+0.00 TON (0 buys)",
+        "s": "body"
+      }
+    ],
+    [
+      {
+        "t": "Top skip reasons: ",
+        "s": "muted"
+      },
+      {
+        "t": "OVER_MAX 16 (the all-in cost is above your max) · LOW_CONFIDENCE 6 (the floor is not reliable enough) · LOCKED 2 (the gift is locked and cannot be resold yet)",
+        "s": "body"
+      }
+    ],
+    [
+      {
+        "t": "Tuning hint: 16 deals were skipped by OVER_MAX (max price), and 1 of them would be +net today (+0.34 TON). Rule #3: raise max 2.75 → 2.90 TON? (asks to confirm)",
+        "s": "warn"
+      }
+    ],
+    [
+      {
+        "t": "API errors: ",
+        "s": "muted"
+      },
+      {
+        "t": "0",
+        "s": "body"
+      }
+    ]
+  ],
+  "buttons": [
+    [
+      "Raise to 2.90",
+      "Keep"
+    ]
+  ]
+}
