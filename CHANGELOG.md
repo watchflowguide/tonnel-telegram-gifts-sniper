@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1 · 2026-11-02
+
+- Search polling survives a slow response without reset.
+- Rules keep their order after a restart.
+- Faster first scan of the listings feed.
+- Fixed the status line when a page is empty.
+
+
 All notable changes to this project are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
